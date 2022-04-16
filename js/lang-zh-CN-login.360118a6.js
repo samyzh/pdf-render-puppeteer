@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["lang-zh-CN-login"],{"00c3":function(n,o,l){"use strict";l.r(o),o.default={"login.userName":"用户名","login.login":"登录","login.logout":"退出登录","login.sureLogout":"真的要注销登录吗 ?","login.username":"用户名","login.welcome":"欢迎登录","login.password":"密码","login.captcha":"验证码","login.pelaseInputname":"请输入帐户名","login.pelaseInputpwd":"请输入密码","login.pelaseInputcaptcha":"请输入验证码"}}}]);
+//# sourceMappingURL=lang-zh-CN-login.360118a6.js.map
