@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "name": "pdf-server",
+      "script": "./app.js",
+      "exec_mode": "cluster",
+      "instances": -1,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "max_memory_restart": "5G",
+      "max_restarts": 4,
+      "min_uptime": 400,
+      "env": {
+        "COMMON_VARIABLE": "true",
+        "PORT": 8084
+      },
+      "env_production": {
+        "NODE_ENV": "production",
+        "PORT": 8084
+      },
+      "args": ["--max_old_space_size=4096"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "pdf-render-puppeteer",
+  "version": "1.0.0",
+  "author": "yessz",
+  "description": "a pdf render server",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "chrome-aws-lambda": "^10.0.0",
+    "content-disposition": "^0.5.4",
+    "express": "^4.17.3",
+    "puppeteer": "^10.0.0",
+    "puppeteer-core": "^10.0.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node app.js",
+    "start": "NODE_ENV=production node app.js",
+    "vercel-build": "node app.js"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
